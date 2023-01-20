@@ -1,0 +1,6 @@
+file = open("home.htm", 'w')
+text1 = input("Please update the page: ")
+file.write("<html>\n <center><h2>This is the home page</h2>\n<h3>")
+file.write(text1)
+file.write("</h3></center>\n</html>")
+file.close()
