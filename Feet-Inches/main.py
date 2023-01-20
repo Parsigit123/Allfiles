@@ -1,6 +1,8 @@
 import PySimpleGUI as sg
 from converters import convert
 
+print("This program converts feet/inches to meters.")
+
 feet_label = sg.Text("Enter feet: ")
 feet_input = sg.Input(key="feet")
 
